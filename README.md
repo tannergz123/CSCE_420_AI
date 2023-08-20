@@ -6,7 +6,7 @@
 - You will need a github account, and a basic understanding of git
 - You will need python3 or C++
 - You will also need the following python packages: 
-- Make sure your python has future, heapq
+- Make sure your python has future, heapq or queue.PriorityQueue
 
 Once you have a github account
 1. Go to https://github.com/EndlessDebugger/420_template
