@@ -18,3 +18,11 @@ Once you have a github account
 
 
 5. Then use git to clone your repository somewhere on your computer
+
+## When submitting PAs, make sure to:
+1. Create & push a git tag using the following command
+git tag "pa1" && git push origin "pa1"
+
+2. If you want to resubmit, simply delete the old git tag, and then recreate it on your latest
+commit. `git push --delete origin "pa1" && git tag --delete "pa1"`
+
