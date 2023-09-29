@@ -1,0 +1,58 @@
+Iteration: 1, Queue Size: 20, Heuristic: 16, Path Cost: 0
+>>>>>>>>>>
+DEHIJ
+G
+B
+AC
+F
+>>>>>>>>>>
+Iteration: 2, Queue Size: 34, Heuristic: 14, Path Cost: 1
+>>>>>>>>>>
+DEHIJ
+GB
+
+AC
+F
+>>>>>>>>>>
+Iteration: 3, Queue Size: 52, Heuristic: 12, Path Cost: 2
+>>>>>>>>>>
+DEHIJ
+GB
+C
+A
+F
+>>>>>>>>>>
+Solution found!
+move 0, pathcost=0, heuristic=16, f(n)=g(n)+h(n)=16
+>>>>>>>>>>
+DEHIJ
+G
+B
+AC
+F
+>>>>>>>>>>
+move 1, pathcost=1, heuristic=14, f(n)=g(n)+h(n)=15
+>>>>>>>>>>
+DEHIJ
+GB
+
+AC
+F
+>>>>>>>>>>
+move 2, pathcost=2, heuristic=12, f(n)=g(n)+h(n)=14
+>>>>>>>>>>
+DEHIJ
+GB
+C
+A
+F
+>>>>>>>>>>
+move 3, pathcost=3, heuristic=10, f(n)=g(n)+h(n)=13
+>>>>>>>>>>
+DEHIJF
+GB
+C
+A
+
+>>>>>>>>>>
+statistics: probs/probB03.bwp method Astar planlen 3 iter 3 maxq 51

@@ -1,0 +1,106 @@
+Iteration: 20, Queue Size: 247, Heuristic: 16, Path Cost: 3
+>>>>>>>>>>
+CIJ
+DE
+FGBH
+
+A
+>>>>>>>>>>
+Iteration: 40, Queue Size: 507, Heuristic: 19, Path Cost: 1
+>>>>>>>>>>
+CIJ
+DE
+FGH
+AB
+
+>>>>>>>>>>
+Iteration: 60, Queue Size: 729, Heuristic: 17, Path Cost: 3
+>>>>>>>>>>
+CIJA
+DEH
+FGB
+
+
+>>>>>>>>>>
+Iteration: 80, Queue Size: 894, Heuristic: 17, Path Cost: 3
+>>>>>>>>>>
+CIJ
+D
+FGB
+AHE
+
+>>>>>>>>>>
+Iteration: 100, Queue Size: 1167, Heuristic: 14, Path Cost: 5
+>>>>>>>>>>
+CIJE
+
+FGBA
+H
+D
+>>>>>>>>>>
+Solution found!
+move 0, pathcost=0, heuristic=19, f(n)=g(n)+h(n)=19
+>>>>>>>>>>
+CIJ
+DEH
+FG
+AB
+
+>>>>>>>>>>
+move 1, pathcost=1, heuristic=17, f(n)=g(n)+h(n)=18
+>>>>>>>>>>
+CIJ
+DEH
+FGB
+A
+
+>>>>>>>>>>
+move 2, pathcost=2, heuristic=17, f(n)=g(n)+h(n)=19
+>>>>>>>>>>
+CIJ
+DEH
+FGBA
+
+
+>>>>>>>>>>
+move 3, pathcost=3, heuristic=15, f(n)=g(n)+h(n)=18
+>>>>>>>>>>
+CIJ
+DE
+FGBA
+H
+
+>>>>>>>>>>
+move 4, pathcost=4, heuristic=16, f(n)=g(n)+h(n)=20
+>>>>>>>>>>
+CIJE
+D
+FGBA
+H
+
+>>>>>>>>>>
+move 5, pathcost=5, heuristic=14, f(n)=g(n)+h(n)=19
+>>>>>>>>>>
+CIJE
+
+FGBA
+H
+D
+>>>>>>>>>>
+move 6, pathcost=6, heuristic=12, f(n)=g(n)+h(n)=18
+>>>>>>>>>>
+CIJ
+E
+FGBA
+H
+D
+>>>>>>>>>>
+move 7, pathcost=7, heuristic=10, f(n)=g(n)+h(n)=17
+>>>>>>>>>>
+CIJ
+E
+FGB
+H
+DA
+>>>>>>>>>>
+statistics: probs/probB07.bwp method Astar planlen 7 iter 101 maxq 1184

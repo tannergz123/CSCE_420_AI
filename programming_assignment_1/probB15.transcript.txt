@@ -1,0 +1,402 @@
+Iteration: 1000, Queue Size: 7825, Heuristic: 23, Path Cost: 6
+>>>>>>>>>>
+BFG
+
+HI
+
+DCEJA
+>>>>>>>>>>
+Iteration: 2000, Queue Size: 15932, Heuristic: 24, Path Cost: 5
+>>>>>>>>>>
+BF
+
+HJIE
+
+DCGA
+>>>>>>>>>>
+Iteration: 3000, Queue Size: 24290, Heuristic: 21, Path Cost: 8
+>>>>>>>>>>
+
+
+HJID
+
+GCAEFB
+>>>>>>>>>>
+Iteration: 4000, Queue Size: 29707, Heuristic: 20, Path Cost: 9
+>>>>>>>>>>
+
+
+HJIDFB
+
+GACE
+>>>>>>>>>>
+Iteration: 5000, Queue Size: 38420, Heuristic: 17, Path Cost: 11
+>>>>>>>>>>
+JCH
+
+FIB
+
+DGEA
+>>>>>>>>>>
+Iteration: 6000, Queue Size: 48535, Heuristic: 19, Path Cost: 10
+>>>>>>>>>>
+
+H
+FIBJC
+A
+DGE
+>>>>>>>>>>
+Iteration: 7000, Queue Size: 57790, Heuristic: 26, Path Cost: 4
+>>>>>>>>>>
+
+E
+HJFIB
+AC
+DG
+>>>>>>>>>>
+Iteration: 8000, Queue Size: 68866, Heuristic: 21, Path Cost: 8
+>>>>>>>>>>
+
+
+HJDIFB
+
+EGCA
+>>>>>>>>>>
+Iteration: 9000, Queue Size: 79570, Heuristic: 24, Path Cost: 6
+>>>>>>>>>>
+B
+
+HJI
+EF
+DCGA
+>>>>>>>>>>
+Iteration: 10000, Queue Size: 89325, Heuristic: 22, Path Cost: 7
+>>>>>>>>>>
+
+HF
+BI
+AC
+DGEJ
+>>>>>>>>>>
+Iteration: 11000, Queue Size: 99535, Heuristic: 20, Path Cost: 9
+>>>>>>>>>>
+
+J
+HFBI
+
+DGEAC
+>>>>>>>>>>
+Iteration: 12000, Queue Size: 108223, Heuristic: 23, Path Cost: 7
+>>>>>>>>>>
+F
+
+HJBI
+A
+DGEC
+>>>>>>>>>>
+Iteration: 13000, Queue Size: 117658, Heuristic: 23, Path Cost: 7
+>>>>>>>>>>
+
+
+HJIDBEF
+AC
+G
+>>>>>>>>>>
+Iteration: 14000, Queue Size: 126898, Heuristic: 23, Path Cost: 7
+>>>>>>>>>>
+
+E
+HJID
+A
+GCBF
+>>>>>>>>>>
+Iteration: 15000, Queue Size: 134774, Heuristic: 23, Path Cost: 7
+>>>>>>>>>>
+
+B
+HJIAF
+
+DCEG
+>>>>>>>>>>
+Iteration: 16000, Queue Size: 143378, Heuristic: 22, Path Cost: 8
+>>>>>>>>>>
+C
+
+HJIDB
+A
+GFE
+>>>>>>>>>>
+Iteration: 17000, Queue Size: 151388, Heuristic: 22, Path Cost: 8
+>>>>>>>>>>
+
+A
+HJDIFB
+
+GEC
+>>>>>>>>>>
+Iteration: 18000, Queue Size: 159115, Heuristic: 22, Path Cost: 8
+>>>>>>>>>>
+
+
+HJIDF
+AEB
+GC
+>>>>>>>>>>
+Iteration: 19000, Queue Size: 166223, Heuristic: 22, Path Cost: 8
+>>>>>>>>>>
+
+
+HJIDGF
+
+ECAB
+>>>>>>>>>>
+Iteration: 20000, Queue Size: 172817, Heuristic: 22, Path Cost: 8
+>>>>>>>>>>
+
+AB
+HJIDF
+
+GEC
+>>>>>>>>>>
+Iteration: 21000, Queue Size: 180003, Heuristic: 22, Path Cost: 8
+>>>>>>>>>>
+BF
+
+HI
+
+DCEGAJ
+>>>>>>>>>>
+Iteration: 22000, Queue Size: 187580, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+
+B
+HIF
+
+DCJAEG
+>>>>>>>>>>
+Iteration: 23000, Queue Size: 193331, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+
+
+HJDIFBE
+
+GCA
+>>>>>>>>>>
+Iteration: 24000, Queue Size: 197859, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+
+BF
+HJIDA
+
+GCE
+>>>>>>>>>>
+Iteration: 25000, Queue Size: 204483, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+BFJ
+HG
+
+
+DCEAI
+>>>>>>>>>>
+Iteration: 26000, Queue Size: 211704, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+
+C
+HJIDBF
+
+GEA
+>>>>>>>>>>
+Iteration: 27000, Queue Size: 219562, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+
+
+HIJFB
+
+DCGEA
+>>>>>>>>>>
+Iteration: 28000, Queue Size: 225494, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+
+
+HJDBF
+
+GICAE
+>>>>>>>>>>
+Iteration: 29000, Queue Size: 232575, Heuristic: 21, Path Cost: 9
+>>>>>>>>>>
+BJ
+
+HIF
+C
+DGEA
+>>>>>>>>>>
+Iteration: 30000, Queue Size: 239208, Heuristic: 20, Path Cost: 10
+>>>>>>>>>>
+
+H
+IBF
+
+DGEJCA
+>>>>>>>>>>
+Iteration: 31000, Queue Size: 246195, Heuristic: 20, Path Cost: 10
+>>>>>>>>>>
+F
+
+HJDB
+
+GCEAI
+>>>>>>>>>>
+Iteration: 32000, Queue Size: 253297, Heuristic: 20, Path Cost: 10
+>>>>>>>>>>
+
+
+HIBJ
+GF
+DCEA
+>>>>>>>>>>
+Iteration: 33000, Queue Size: 262061, Heuristic: 20, Path Cost: 10
+>>>>>>>>>>
+
+H
+IFB
+AJ
+DGEC
+>>>>>>>>>>
+Solution found!
+move 0, pathcost=0, heuristic=30, f(n)=g(n)+h(n)=30
+>>>>>>>>>>
+BFG
+E
+HJ
+ACI
+D
+>>>>>>>>>>
+move 1, pathcost=1, heuristic=29, f(n)=g(n)+h(n)=30
+>>>>>>>>>>
+BF
+E
+HJ
+ACI
+DG
+>>>>>>>>>>
+move 2, pathcost=2, heuristic=27, f(n)=g(n)+h(n)=29
+>>>>>>>>>>
+BF
+
+HJ
+ACI
+DGE
+>>>>>>>>>>
+move 3, pathcost=3, heuristic=27, f(n)=g(n)+h(n)=30
+>>>>>>>>>>
+BF
+
+H
+ACI
+DGEJ
+>>>>>>>>>>
+move 4, pathcost=4, heuristic=25, f(n)=g(n)+h(n)=29
+>>>>>>>>>>
+BF
+H
+
+ACI
+DGEJ
+>>>>>>>>>>
+move 5, pathcost=5, heuristic=23, f(n)=g(n)+h(n)=28
+>>>>>>>>>>
+B
+H
+F
+ACI
+DGEJ
+>>>>>>>>>>
+move 6, pathcost=6, heuristic=21, f(n)=g(n)+h(n)=27
+>>>>>>>>>>
+B
+H
+FI
+AC
+DGEJ
+>>>>>>>>>>
+move 7, pathcost=7, heuristic=19, f(n)=g(n)+h(n)=26
+>>>>>>>>>>
+
+H
+FIB
+AC
+DGEJ
+>>>>>>>>>>
+move 8, pathcost=8, heuristic=17, f(n)=g(n)+h(n)=25
+>>>>>>>>>>
+J
+H
+FIB
+AC
+DGE
+>>>>>>>>>>
+move 9, pathcost=9, heuristic=19, f(n)=g(n)+h(n)=28
+>>>>>>>>>>
+J
+H
+FIB
+ACE
+DG
+>>>>>>>>>>
+move 10, pathcost=10, heuristic=20, f(n)=g(n)+h(n)=30
+>>>>>>>>>>
+J
+H
+FIB
+ACEG
+D
+>>>>>>>>>>
+move 11, pathcost=11, heuristic=18, f(n)=g(n)+h(n)=29
+>>>>>>>>>>
+J
+H
+FIBD
+ACEG
+
+>>>>>>>>>>
+move 12, pathcost=12, heuristic=16, f(n)=g(n)+h(n)=28
+>>>>>>>>>>
+J
+H
+FIBD
+ACE
+G
+>>>>>>>>>>
+move 13, pathcost=13, heuristic=16, f(n)=g(n)+h(n)=29
+>>>>>>>>>>
+JE
+H
+FIBD
+AC
+G
+>>>>>>>>>>
+move 14, pathcost=14, heuristic=14, f(n)=g(n)+h(n)=28
+>>>>>>>>>>
+JE
+H
+FIBD
+A
+GC
+>>>>>>>>>>
+move 15, pathcost=15, heuristic=12, f(n)=g(n)+h(n)=27
+>>>>>>>>>>
+J
+H
+FIBD
+A
+GCE
+>>>>>>>>>>
+move 16, pathcost=16, heuristic=10, f(n)=g(n)+h(n)=26
+>>>>>>>>>>
+J
+H
+FIBD
+
+GCEA
+>>>>>>>>>>
+statistics: probs/probB15.bwp method Astar planlen 16 iter 33337 maxq 264400
