@@ -1,0 +1,192 @@
+﻿Problem
+	Command line inputs
+	Output
+	Number of calls 
+	Number of calls with UCH
+	Sammy 1
+	python DPLL.py sammy.cnf O1Y O2W O3Y L1W L2Y L3B +UCH
+	C1Y: 1
+O1Y: 1
+C1B: 1
+C1W: 1
+O1W: -1
+C2Y: 1
+O2Y: -1
+C2B: 1
+C2W: 1
+O2W: 1
+C3Y: 1
+O3Y: 1
+C3B: 1
+C3W: 1
+O3W: -1
+L1W: 1
+L1Y: -1
+L1B: -1
+L2W: -1
+L2Y: 1
+L2B: -1
+L3W: -1
+L3Y: -1
+L3B: 1
+	86
+	146
+	Sammy 2
+	python DPLL.py sammy.cnf O1W O2Y O3W L1W L2B L3B +UCH
+	O1Y: 1
+C1Y: -1
+C1B: 1
+O1W: 1
+C1W: -1
+O2Y: -1
+C2Y: -1
+C2B: -1
+O2W: 1
+C2W: 1
+O3Y: 1
+C3Y: 1
+C3B: -1
+O3W: -1
+C3W: -1
+L1W: 1
+L1B: -1
+L1Y: 1
+L2W: -1
+L2B: 1
+L2Y: 1
+L3W: 1
+L3Y: -1
+L3B: 1
+	78
+	138
+	Map color
+	python DPLL.py mapcolor.cnf +UCH
+	WAR: 1
+WAG: -1
+WAB: -1
+NTR: -1
+NTG: 1
+NTB: -1
+SAR: -1
+SAG: -1
+SAB: 1
+QR: 1
+QG: -1
+QB: -1
+NSWR: -1
+NSWG: 1
+NSWB: -1
+VR: 1
+VG: -1
+VB: -1
+TR: 1
+TG: -1
+TB: -1
++UCH: 1
+	36
+	36
+	Map color 2
+	python DPLL.py mapcolor.cnf WAR WAG +UCH
+	Unsatisfiable
+	
+
+	
+
+	3 queens
+	python DPLL.py .\3queens.cnf +UCH
+	Unsatisfiable
+	
+
+	
+
+	4 queens
+	python DPLL.py .\4queens.cnf +UCH
+	Q11: -1
+Q12: 1
+Q13: -1
+Q14: -1
+Q21: -1
+Q31: 1
+Q41: -1
+Q22: -1
+Q23: -1
+Q24: 1
+Q32: -1
+Q42: -1
+Q33: -1
+Q34: -1
+Q43: 1
+Q44: -1
+	73
+	73
+	5 queens
+	python DPLL.py .\5queens.cnf +UCH
+	Q11: 1
+Q12: -1
+Q13: -1
+Q14: -1
+Q15: -1
+Q21: -1
+Q31: -1
+Q41: -1
+Q51: -1
+Q22: -1
+Q23: 1
+Q24: -1
+Q25: -1
+Q32: -1
+Q42: 1
+Q52: -1
+Q33: -1
+Q34: -1
+Q35: 1
+Q43: -1
+Q53: -1
+Q44: -1
+Q45: -1
+Q54: 1
+Q55: -1
+	46
+	46
+	6 queens
+	python DPLL.py .\6queens.cnf +UCH
+	Q11: -1
+Q12: 1
+Q13: -1
+Q14: -1
+Q15: -1
+Q16: -1
+Q21: -1
+Q31: -1
+Q41: 1
+Q51: -1
+Q61: -1
+Q22: -1
+Q23: -1
+Q24: 1
+Q25: -1
+Q26: -1
+Q32: -1
+Q42: -1
+Q52: -1
+Q62: -1
+Q33: -1
+Q34: -1
+Q35: -1
+Q36: 1
+Q43: -1
+Q53: 1
+Q63: -1
+Q44: -1
+Q45: -1
+Q46: -1
+Q54: -1
+Q64: -1
+Q55: -1
+Q56: -1
+Q65: 1
+Q66: -1
+
+
+	1187
+	1187

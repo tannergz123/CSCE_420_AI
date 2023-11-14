@@ -1,0 +1,3 @@
+PS C:\Users\tianl\Documents\Fall_2023\CSCE_420_AI\CSCE_420_AI\programming_assignment_2> python DPLL.py mapcolor.cnf WAR WAG +UCH 
+false assignment
+UNSATISFIABLE

@@ -1,0 +1,99 @@
+Model: {'+UCH': '1'}
+trying WAR=1
+Model: {'+UCH': '1', 'WAR': '1'}
+trying WAG=1
+false assignment
+trying WAG=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1'}
+trying WAB=1
+false assignment
+trying WAB=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1'}
+trying NTR=1
+false assignment
+trying NTR=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1'}
+trying NTG=1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1'}
+trying NTB=1
+false assignment
+trying NTB=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1'}
+trying SAR=1
+false assignment
+trying SAR=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1'}   
+trying SAG=1
+false assignment
+trying SAG=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1'}
+trying SAB=1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1'}
+trying QR=1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1'}
+trying QG=1
+false assignment
+trying QG=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1'}
+trying QB=1
+false assignment
+trying QB=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1'}
+trying NSWR=1
+false assignment
+trying NSWR=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1'}
+trying NSWG=1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1'}
+trying NSWB=1
+false assignment
+trying NSWB=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1', 'NSWB': '-1'}
+trying VR=1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1', 'NSWB': '-1', 'VR': '1'}   
+trying VG=1
+false assignment
+trying VG=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1', 'NSWB': '-1', 'VR': '1', 'VG': '-1'}
+trying VB=1
+false assignment
+trying VB=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1', 'NSWB': '-1', 'VR': '1', 'VG': '-1', 'VB': '-1'}
+trying TR=1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1', 'NSWB': '-1', 'VR': '1', 'VG': '-1', 'VB': '-1', 'TR': '1'}
+trying TG=1
+false assignment
+trying TG=-1
+Model: {'+UCH': '1', 'WAR': '1', 'WAG': '-1', 'WAB': '-1', 'NTR': '-1', 'NTG': '1', 'NTB': '-1', 'SAR': '-1', 'SAG': '-1', 'SAB': '1', 'QR': '1', 'QG': '-1', 'QB': '-1', 'NSWR': '-1', 'NSWG': '1', 'NSWB': '-1', 'VR': '1', 'VG': '-1', 'VB': '-1', 'TR': '1', 'TG': '-1'}
+trying TB=1
+false assignment
+trying TB=-1
+returns true, all satisfied
+solution:
+WAR: 1
+WAG: -1
+WAB: -1
+NTR: -1
+NTG: 1
+NTB: -1
+SAR: -1
+SAG: -1
+SAB: 1
+QR: 1
+QG: -1
+QB: -1
+NSWR: -1
+NSWG: 1
+NSWB: -1
+VR: 1
+VG: -1
+VB: -1
+TR: 1
+TG: -1
+TB: -1
++UCH: 1
+11/14/2023 02:43 PM
+just the Satisfied (true) propositions:
++UCH WAR NTG SAB QR NSWG VR TR
+total DPLL calls: 36
+UCH=True

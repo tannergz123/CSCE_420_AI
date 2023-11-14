@@ -1,0 +1,365 @@
+PS C:\Users\tianl\Documents\Fall_2023\CSCE_420_AI\CSCE_420_AI\programming_assignment_2> python DPLL.py sammy.cnf O1Y O2W O3Y L1W L2B L3B +UCH
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1'}
+forcing -L1B=-1 by UCH
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1'}
+forcing -L2W=-1 by UCH
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1'}
+forcing -L2Y=-1 by UCH
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1'}
+trying C1Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1'}
+trying C1B=1
+false assignment
+trying C1B=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1'}
+trying O1W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '1'}
+trying C1W=1
+false assignment
+trying C1W=-1
+false assignment
+returns false at end
+trying O1W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1'}
+trying C1W=1
+false assignment
+trying C1W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1'}
+trying O2Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '1'}
+trying C2Y=1
+false assignment
+trying C2Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '1', 'C2Y': '-1'}
+trying C2B=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '1', 'C2Y': '-1', 'C2B': '1'}     
+trying C2W=1
+false assignment
+trying C2W=-1
+false assignment
+returns false at end
+trying C2B=-1
+false assignment
+returns false at end
+returns false at end
+trying O2Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1'}
+trying C2Y=1
+false assignment
+trying C2Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1'}
+trying C2B=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '1'}    
+trying C2W=1
+false assignment
+trying C2W=-1
+false assignment
+returns false at end
+trying C2B=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1'}   
+trying C2W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1'}
+trying C3Y=1
+false assignment
+trying C3Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1'}
+trying C3B=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1'}
+trying O3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1'}
+trying L1Y=1
+false assignment
+trying L1Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1'}
+trying L3Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+trying L3Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '-1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '-1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '-1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+trying O3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1'}
+trying L1Y=1
+false assignment
+trying L1Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1'}
+trying L3Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1', 'L3Y': '1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1', 'L3Y': '1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1', 'L3Y': '1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+trying L3Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1', 'L3Y': '-1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1', 'L3Y': '-1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '1', 'C1B': '-1', 'O1W': '-1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '-1', 'C3B': '1', 'O3W': '-1', 'L1Y': '-1', 'L3Y': '-1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+trying C3B=-1
+false assignment
+returns false at end
+returns false at end
+trying C2W=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+trying C1Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1'}
+trying C1B=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1'}
+trying O1W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1'}
+trying C1W=1
+false assignment
+trying C1W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1'}
+trying O2Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '1'}
+trying C2Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '1', 'C2Y': '1'}
+trying C2B=1
+false assignment
+trying C2B=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '1', 'C2Y': '1', 'C2B': '-1'}      
+trying C2W=1
+false assignment
+trying C2W=-1
+false assignment
+returns false at end
+returns false at end
+trying C2Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '1', 'C2Y': '-1'}
+trying C2B=1
+false assignment
+trying C2B=-1
+false assignment
+returns false at end
+returns false at end
+trying O2Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1'}
+trying C2Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '1'}
+trying C2B=1
+false assignment
+trying C2B=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '1', 'C2B': '-1'}     
+trying C2W=1
+false assignment
+trying C2W=-1
+false assignment
+returns false at end
+returns false at end
+trying C2Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1'}
+trying C2B=1
+false assignment
+trying C2B=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1'}    
+trying C2W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1'}
+trying C3Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1'}
+trying C3B=1
+false assignment
+trying C3B=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1'}
+trying O3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1'}
+trying L1Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1'}
+trying L3Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1', 'L3Y': '1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1', 'L3Y': '1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1', 'L3Y': '1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+trying L3Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1', 'L3Y': '-1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1', 'L3Y': '-1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '1', 'L3Y': '-1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+trying L1Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1'}
+trying L3Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+trying L3Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '-1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '-1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '1', 'L1Y': '-1', 'L3Y': '-1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+trying O3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1'}
+trying L1Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1', 'L1Y': '1'}
+trying L3Y=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1', 'L1Y': '1', 'L3Y': '1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1', 'L1Y': '1', 'L3Y': '1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+trying L3W=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1', 'L1Y': '1', 'L3Y': '1', 'L3W': '-1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+false assignment
+returns false at end
+returns false at end
+trying L3Y=-1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1', 'L1Y': '1', 'L3Y': '-1'}
+trying L3W=1
+Model: {'O1Y': '1', 'O2W': '1', 'O3Y': '1', 'L1W': '1', 'L2B': '1', 'L3B': '1', '+UCH': '1', 'L1B': '-1', 'L2W': '-1', 'L2Y': '-1', 'C1Y': '-1', 'C1B': '1', 'O1W': '1', 'C1W': '-1', 'O2Y': '-1', 'C2Y': '-1', 'C2B': '-1', 'C2W': '1', 'C3Y': '1', 'C3B': '-1', 'O3W': '-1', 'L1Y': '1', 'L3Y': '-1', 'L3W': '1'}
+trying C3W=1
+false assignment
+trying C3W=-1
+returns true, all satisfied
+returns true within uch
+returns true within uch
+returns true within uch
+solution:
+O1Y: 1
+C1Y: -1
+C1B: 1
+O1W: 1
+C1W: -1
+O2Y: -1
+C2Y: -1
+C2B: -1
+O2W: 1
+C2W: 1
+O3Y: 1
+C3Y: 1
+C3B: -1
+O3W: -1
+C3W: -1
+L1W: 1
+L1B: -1
+L1Y: 1
+L2W: -1
+L2B: 1
+L2Y: -1
+L3W: 1
+L3Y: -1
+L3B: 1
++UCH: 1
+11/14/2023 02:42 PM
+just the Satisfied (true) propositions:
+O1Y O2W O3Y L1W L2B L3B +UCH C1B O1W C2W C3Y L1Y L3W
+total DPLL calls: 138
+UCH=True

@@ -1,0 +1,123 @@
+PS C:\Users\tianl\Documents\Fall_2023\CSCE_420_AI\CSCE_420_AI\programming_assignment_2> python DPLL.py .\3queens.cnf 
+Model: {}
+trying Q11=1
+Model: {'Q11': '1'}
+trying Q12=1
+false assignment
+trying Q12=-1
+Model: {'Q11': '1', 'Q12': '-1'}
+trying Q13=1
+false assignment
+trying Q13=-1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1'}
+trying Q21=1
+false assignment
+trying Q21=-1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1', 'Q21': '-1'}
+trying Q31=1
+false assignment
+trying Q31=-1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1', 'Q21': '-1', 'Q31': '-1'}
+trying Q32=1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1', 'Q21': '-1', 'Q31': '-1', 'Q32': '1'}
+trying Q33=1
+false assignment
+trying Q33=-1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1', 'Q21': '-1', 'Q31': '-1', 'Q32': '1', 'Q33': '-1'}
+trying Q22=1
+false assignment
+trying Q22=-1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1', 'Q21': '-1', 'Q31': '-1', 'Q32': '1', 'Q33': '-1', 'Q22': '-1'}   
+trying Q23=1
+false assignment
+trying Q23=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+trying Q32=-1
+Model: {'Q11': '1', 'Q12': '-1', 'Q13': '-1', 'Q21': '-1', 'Q31': '-1', 'Q32': '-1'}
+trying Q33=1
+false assignment
+trying Q33=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+trying Q11=-1
+Model: {'Q11': '-1'}
+trying Q12=1
+Model: {'Q11': '-1', 'Q12': '1'}
+trying Q13=1
+false assignment
+trying Q13=-1
+Model: {'Q11': '-1', 'Q12': '1', 'Q13': '-1'}
+trying Q21=1
+false assignment
+trying Q21=-1
+Model: {'Q11': '-1', 'Q12': '1', 'Q13': '-1', 'Q21': '-1'}
+trying Q31=1
+Model: {'Q11': '-1', 'Q12': '1', 'Q13': '-1', 'Q21': '-1', 'Q31': '1'}
+trying Q32=1
+false assignment
+trying Q32=-1
+Model: {'Q11': '-1', 'Q12': '1', 'Q13': '-1', 'Q21': '-1', 'Q31': '1', 'Q32': '-1'}
+trying Q33=1
+false assignment
+trying Q33=-1
+Model: {'Q11': '-1', 'Q12': '1', 'Q13': '-1', 'Q21': '-1', 'Q31': '1', 'Q32': '-1', 'Q33': '-1'}
+trying Q22=1
+false assignment
+trying Q22=-1
+Model: {'Q11': '-1', 'Q12': '1', 'Q13': '-1', 'Q21': '-1', 'Q31': '1', 'Q32': '-1', 'Q33': '-1', 'Q22': '-1'}   
+trying Q23=1
+false assignment
+trying Q23=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+returns false at end
+trying Q31=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+trying Q12=-1
+Model: {'Q11': '-1', 'Q12': '-1'}
+trying Q13=1
+Model: {'Q11': '-1', 'Q12': '-1', 'Q13': '1'}
+trying Q21=1
+Model: {'Q11': '-1', 'Q12': '-1', 'Q13': '1', 'Q21': '1'}
+trying Q31=1
+false assignment
+trying Q31=-1
+Model: {'Q11': '-1', 'Q12': '-1', 'Q13': '1', 'Q21': '1', 'Q31': '-1'}
+trying Q32=1
+false assignment
+trying Q32=-1
+Model: {'Q11': '-1', 'Q12': '-1', 'Q13': '1', 'Q21': '1', 'Q31': '-1', 'Q32': '-1'}
+trying Q33=1
+false assignment
+trying Q33=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+trying Q21=-1
+Model: {'Q11': '-1', 'Q12': '-1', 'Q13': '1', 'Q21': '-1'}
+trying Q31=1
+false assignment
+trying Q31=-1
+false assignment
+returns false at end
+returns false at end
+trying Q13=-1
+false assignment
+returns false at end
+returns false at end
+returns false at end
+UNSATISFIABLE
