@@ -1,0 +1,199 @@
+-------------------- 1 --------------------
+1 ?- consult('solutions.pl').
+true.
+
+2 ?- brother(rod, X).  
+X = tod ;
+false.
+
+3 ?- sister(marge, X). 
+X = patty ;
+X = selma.
+
+4 ?- aunt(X,patty).   
+X = bart ;
+X = lisa ;
+X = maggie ;
+false.
+
+5 ?- uncle(bart,X).    
+X = herb ;
+false.
+
+6 ?- grandfather(maggie,X).
+X = abraham ;
+false.
+
+7 ?- granddaughter(jackie,X). 
+X = lisa ;
+X = maggie ;
+false.
+
+8 ?- ancestor(bart,X).      
+X = homer ;
+X = marge ;
+X = abraham ;
+X = jackie ;
+false.
+
+-------------------- 2 --------------------
+2 ?- [solutions].
+true.
+
+2 ?- query2a(X).  
+X = sam ;
+X = bill ;
+X = joan.
+
+3 ?- query2b(X).  
+X = lance ;
+false.
+
+4 ?- query2c(X). 
+X = lisa ;
+X = charlie ;
+false.
+
+-------------------- 3 --------------------
+
+8 ?- canTeach(X,Y).       
+X = bill,
+Y = organic ;
+X = bill,
+Y = inorganic ;
+X = susan,
+Y = algebra ;
+X = susan,
+Y = calculus.
+
+9 ?- canTeach2(X,Y). 
+X = susan,
+Y = algebra ;
+X = susan,
+Y = calculus.
+
+10 ?- canTeach3(X,Y). 
+X = susan,
+Y = algebra ;
+X = susan,
+Y = calculus ;
+X = chuck,
+Y = dynamics ;
+X = chuck,
+Y = electromagnetism ;
+X = chuck,
+Y = nuclear.
+
+-------------------- 4 --------------------
+14 ?- octal_code(A,B,C).   
+000
+A = B, B = C, C = 0 ;
+001
+A = B, B = 0,
+C = 1 ;
+010
+A = C, C = 0,
+B = 1 ;
+011
+A = 0,
+B = C, C = 1 ;
+100
+A = 1,
+B = C, C = 0 ;
+101
+A = C, C = 1,
+B = 0 ;
+110
+A = B, B = 1,
+C = 0 ;
+111
+A = B, B = C, C = 1.
+
+Explanation:
+1. Start with the first value for A (0), then for B (0), and then for C (0).
+2. Print the combination (000).
+3. Upon pressing ;, Prolog backtracks to find the next value for C (1), printing 001.
+4. This process continues, backtracking at each step to increment the next bit.
+
+-------------------- 5 --------------------
+2 ?- mapcolor(WA,NT,SA,Q,NSW,V,T).
+WA = Q, Q = V, V = T, T = blue,
+NT = NSW, NSW = green,
+SA = red ;
+WA = Q, Q = V, V = blue,
+NT = NSW, NSW = T, T = green,
+SA = red ;
+WA = Q, Q = V, V = blue,
+NT = NSW, NSW = green,
+SA = T, T = red ;
+WA = Q, Q = V, V = T, T = blue,
+NT = NSW, NSW = red,
+SA = green ;
+WA = Q, Q = V, V = blue,
+NT = NSW, NSW = red,
+SA = T, T = green ;
+WA = Q, Q = V, V = blue,
+NT = NSW, NSW = T, T = red,
+SA = green ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = T, T = blue,
+SA = red ;
+WA = Q, Q = V, V = T, T = green,
+NT = NSW, NSW = blue,
+SA = red ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = blue,
+SA = T, T = red ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = red,
+SA = T, T = blue ;
+WA = Q, Q = V, V = T, T = green,
+NT = NSW, NSW = red,
+SA = blue ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = T, T = red,
+SA = blue ;
+WA = Q, Q = V, V = red,
+NT = NSW, NSW = T, T = blue,
+SA = green ;
+WA = Q, Q = V, V = red,
+NT = NSW, NSW = blue,
+SA = T, T = green ;
+WA = Q, Q = V, V = T, T = red,
+NT = NSW, NSW = blue,
+SA = green ;
+WA = Q, Q = V, V = red,
+NT = NSW, NSW = green,
+SA = T, T = blue ;
+WA = Q, Q = V, V = red,
+NT = NSW, NSW = T, T = green,
+SA = blue ;
+WA = Q, Q = V, V = T, T = red,
+NT = NSW, NSW = green,
+SA = blue ;
+false.
+
+3 ?- WA=green, mapcolor(WA,NT,SA,Q,NSW,V,T)
+.
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = T, T = blue,
+SA = red ;
+WA = Q, Q = V, V = T, T = green,
+NT = NSW, NSW = blue,
+SA = red ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = blue,
+SA = T, T = red ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = red,
+SA = T, T = blue ;
+WA = Q, Q = V, V = T, T = green,
+NT = NSW, NSW = red,
+SA = blue ;
+WA = Q, Q = V, V = green,
+NT = NSW, NSW = T, T = red,
+SA = blue ;
+false.
+
+4 ?- WA=red, Q=green, mapcolor(WA,NT,SA,Q,NSW,V,T). 
+false.
